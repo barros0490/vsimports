@@ -1,0 +1,349 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* PALETA DE CORES BR.IMPORTS */
+:root {
+    --cor-fundo: #121212;
+    --cor-card: #1e1e1e;
+    --cor-neon: #CCFF00;
+    --cor-texto: #ffffff;
+    --cor-cinza: #a0a0a0;
+}
+
+/* 1. CABEÇALHO / MENU */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #181818;
+    border-bottom: 2px solid var(--cor-neon);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-texto {
+    font-family: 'Black Ops One', cursive, sans-serif;
+    font-size: 28px;
+    color: var(--cor-neon);
+    letter-spacing: 2px;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: var(--cor-neon);
+}
+
+.botao-destaque {
+    background-color: var(--cor-neon);
+    color: #121212 !important;
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+
+/* 2. BANNER PRINCIPAL (HERO) */
+.banner-principal {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(180deg, #181818 0%, #121212 100%);
+}
+
+.banner-principal h1 {
+    font-family: 'Black Ops One', cursive, sans-serif;
+    font-size: 54px;
+    color: var(--cor-neon);
+    margin-bottom: 15px;
+}
+
+.banner-principal p {
+    font-size: 18px;
+    color: var(--cor-cinza);
+    margin-bottom: 25px;
+}
+
+.botao-banner {
+    display: inline-block;
+    background-color: var(--cor-neon);
+    color: #121212;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* 3. SEÇÃO QUEM SOMOS */
+.secao-texto {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.secao-texto h2, .titulo-secao {
+    font-family: 'Black Ops One', cursive, sans-serif;
+    color: var(--cor-neon);
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.secao-texto p {
+    color: var(--cor-cinza);
+    font-size: 15px;
+}
+
+/* 4 & 5. CARDS DE DESTAQUES & GALERIA (FLIP CARDS 3D) */
+.secao-cards, .secao-galeria {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-cards, .container-galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card-container {
+    perspective: 1000px;
+    height: 380px;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card-container:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #333333;
+}
+
+.card-front {
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-front img {
+    width: 100%;
+    height: 82%;
+    object-fit: cover;
+}
+
+.card-front-title {
+    font-family: 'Black Ops One', cursive, sans-serif;
+    background-color: #121212;
+    color: var(--cor-neon);
+    padding: 12px 0;
+    font-size: 16px;
+}
+
+.card-back {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    transform: rotateY(180deg);
+    padding: 24px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    border: 1px solid var(--cor-neon);
+}
+
+.card-back h3 {
+    font-family: 'Black Ops One', cursive, sans-serif;
+    color: var(--cor-neon);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.detalhe-item {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.dica-cor {
+    color: var(--cor-cinza);
+    font-style: italic;
+    font-size: 11px;
+}
+
+.btn-flip {
+    display: block;
+    background-color: var(--cor-neon);
+    color: #121212;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+/* 6. TABELA DE PREÇOS */
+.secao-tabela {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+    overflow-x: auto;
+}
+
+.tabela-planos {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabela-planos th, .tabela-planos td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #333333;
+    font-size: 14px;
+}
+
+.tabela-planos th {
+    background-color: #181818;
+    color: var(--cor-neon);
+    font-family: 'Black Ops One', cursive, sans-serif;
+}
+
+/* 7. FORMULÁRIO DE PEDIDO */
+.secao-formulario {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    border: 1px solid #333333;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: var(--cor-neon);
+    font-weight: bold;
+}
+
+.formulario input, .formulario select, .formulario textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #121212;
+    border: 1px solid #333333;
+    color: #ffffff;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+}
+
+.formulario input:focus, .formulario select:focus, .formulario textarea:focus {
+    border-color: var(--cor-neon);
+}
+
+.botao-enviar {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    background-color: var(--cor-neon);
+    color: #121212;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* 8. RODAPÉ E COOKIES */
+.rodape {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #181818;
+    border-top: 1px solid #333333;
+    color: var(--cor-cinza);
+    font-size: 13px;
+}
+
+.banner-cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #181818;
+    border-top: 1px solid var(--cor-neon);
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+}
+
+.banner-cookies p {
+    font-size: 13px;
+    color: var(--cor-cinza);
+}
+
+.botoes-cookies {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-cookies {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn-aceitar {
+    background-color: var(--cor-neon);
+    color: #121212;
+}
+
+.btn-recusar {
+    background-color: #333333;
+    color: #ffffff;
+}

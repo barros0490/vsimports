@@ -1,0 +1,102 @@
+[
+  {
+    "titulo": "👟 Todos os Modelos",
+    "keywords": ["modelos", "tenis", "produtos", "catalogo", "disponivel", "estoque", "drops", "lista", "opcoes"],
+    "resposta": "Nossos tênis disponíveis são:\n- **Air Max 95** (Cinza/Rosa/Preto)\n- **Mizuno Wave Pro 15** (Preto/Prata)\n- **Air Max TN** (Azul Gradiente/Branco)\n- **Air Max DN** (Total Black)\n- **Air Max TN Red** (Vermelho/Preto)\n- **Air Max TN7** (Branco/Preto)\n- **AF1 CPFM Fuchsia** (Roxo/Fúcsia)\n- **Air More Uptempo** (Branco/Prata)"
+  },
+  {
+    "titulo": "💰 Preços e Tabela",
+    "keywords": ["preco", "precos", "valor", "quanto", "custa", "tabela", "orcamento", "barato", "promocao"],
+    "resposta": "Nossos preços variam de **R$ 349,99 a R$ 385,75**:\n- **Air Max DN**: R$ 349,99\n- **Air Max 95**: R$ 350,00\n- **Mizuno Wave Pro 15**: R$ 380,00\n- **Air Max TN**: R$ 385,75\nVocê pode ver a tabela completa na seção **MAIS PEDIDOS** do site!"
+  },
+  {
+    "titulo": "💳 Formas de Pagamento",
+    "keywords": ["pagamento", "pagar", "pix", "cartao", "credito", "debito", "parcelamento", "fatura"],
+    "resposta": "Aceitamos **PIX**, **Cartão de Crédito** e **Cartão de Débito**. Basta escolher a opção desejada na finalização do seu pedido!"
+  },
+  {
+    "titulo": "🚚 Prazo e Frete",
+    "keywords": ["prazo", "entrega", "frete", "demora", "chega", "envio", "cep", "regiao", "brasil"],
+    "resposta": "Entregamos para todo o Brasil! O prazo médio de entrega é de **2 a 7 dias úteis** após a confirmação do pedido."
+  },
+  {
+    "titulo": "📝 Como Fazer Pedido",
+    "keywords": ["comprar", "pedido", "encomendar", "pedir", "fazer pedido", "formulario", "como compro", "finalizar"],
+    "resposta": "Para fazer seu pedido, role a página até a seção **FAÇA SEU PEDIDO**, preencha seus dados de entrega, selecione a forma de pagamento e informe o modelo com seu tamanho!"
+  },
+  {
+    "titulo": "Air Max 95",
+    "keywords": ["95", "air max 95", "rosa", "cinza"],
+    "resposta": "O **Air Max 95** possui a cor Cinza/Rosa/Preto. Nota de agradabilidade **9.8/10** e preço de **R$ 350,00**. Dica: o toque de rosa dá destaque e combina muito bem com tons neutros!"
+  },
+  {
+    "titulo": "Mizuno Wave Pro 15",
+    "keywords": ["mizuno", "wave", "pro 15", "prophecy"],
+    "resposta": "O **Mizuno Wave Pro 15** tem visual futurista Preto/Prata, agradabilidade 9.7/10 e custa **R$ 380,00**. É super versátil para looks streetwear!"
+  },
+  {
+    "titulo": "Air Max TN",
+    "keywords": ["tn", "air max tn", "azul", "gradiente"],
+    "resposta": "O **Air Max TN** vem na cor Azul Gradiente/Branco. Nota de agradabilidade **9.9/10** e preço de **R$ 385,75**. É o ponto focal perfeito para o seu outfit!"
+  },
+  {
+    "titulo": "Air Max DN",
+    "keywords": ["dn", "air max dn", "preto", "all black", "total black"],
+    "resposta": "O **Air Max DN** é o nosso modelo **Total Black** (Preto Total). Possui nota 10/10 na facilidade de combinar (encaixa em tudo!) e custa **R$ 349,99**."
+  },
+  {
+    "titulo": "Air Max TN Red",
+    "keywords": ["tn red", "vermelho", "red", "preto e vermelho"],
+    "resposta": "O **Air Max TN Red** vem na combinação marcante Vermelho/Preto com nota 9.2/10. Combina perfeitamente com roupas em tons escuros!"
+  },
+  {
+    "titulo": "Air Max TN7",
+    "keywords": ["tn7", "air max tn7", "branco e preto", "pb"],
+    "resposta": "O **Air Max TN7** conta com visual P&B clássico (Branco/Preto), nota 9.8/10 de facilidade de combinar. Muito fácil de usar no dia a dia!"
+  },
+  {
+    "titulo": "AF1 CPFM Fuchsia",
+    "keywords": ["fuchsia", "fucsia", "cpfm", "af1", "force", "purple", "roxo", "proximo drop"],
+    "resposta": "O **AF1 CPFM Fuchsia** é o grande destaque do nosso próximo drop! Cor Roxo/Fúcsia Vibrante exótica e chamativa para estilos streetwear ousados."
+  },
+  {
+    "titulo": "Air More Uptempo",
+    "keywords": ["uptempo", "more uptempo", "branco", "prata"],
+    "resposta": "O **Air More Uptempo** possui base limpa na cor Branco/Prata com nota 9.7/10. Um clássico da cultura sneakerhead super confortável."
+  },
+  {
+    "titulo": "Tamanhos e Numeração",
+    "keywords": ["tamanho", "tamanhos", "numeracao", "numero", "37", "38", "39", "40", "41", "42", "43", "44", "medida"],
+    "resposta": "Trabalhamos com numerações do **37 ao 44**. Basta indicar o seu tamanho no campo **'Tênis desejado e Tamanho'** no formulário de pedido!"
+  },
+  {
+    "titulo": "Rastreio de Pedido",
+    "keywords": ["rastreio", "rastrear", "codigo", "acompanhar", "onde esta"],
+    "resposta": "Assim que o seu pedido for enviado, enviaremos o código de rastreamento diretamente para o **e-mail** cadastrado no seu formulário!"
+  },
+  {
+    "titulo": "Trocas e Devoluções",
+    "keywords": ["troca", "trocar", "devolucao", "devolver", "defeito", "tamanho errado"],
+    "resposta": "Realizamos trocas por tamanho ou modelo sem complicações em até **7 dias** após o recebimento do produto."
+  },
+  {
+    "titulo": "Qualidade dos Produtos",
+    "keywords": ["original", "qualidade", "linha", "primeira", "importado", "garantia"],
+    "resposta": "Trabalhamos apenas com tênis de alta qualidade e acabamento impecável, curados especialmente para quem exige o melhor da cultura sneakerhead."
+  },
+  {
+    "titulo": "Quem Somos",
+    "keywords": ["sobre", "loja", "quem somos", "confiavel", "br imports", "fonte"],
+    "resposta": "A **BR.IMPORTS** é a sua fonte de sneakers exclusivos e cultura urbana. Nossa equipe busca os modelos mais desejados do mercado global para te entregar estilo com segurança e agilidade!"
+  },
+  {
+    "titulo": "Desconto no PIX",
+    "keywords": ["desconto", "cupom", "pix tem desconto", "promocao pix"],
+    "resposta": "Ao escolher **PIX** como forma de pagamento, seu pedido é processado com prioridade máxima na nossa fila de envio!"
+  },
+  {
+    "titulo": "Atendimento e Contato",
+    "keywords": ["contato", "falar", "whatsapp", "telefone", "suporte", "atendimento", "email"],
+    "resposta": "Você pode tirar suas dúvidas por aqui mesmo ou preencher o formulário no final do site para nossa equipe entrar em contato diretamente com você!"
+  }
+]
